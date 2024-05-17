@@ -1,6 +1,6 @@
-import * as flipbook from 'https://flipbookviewer.vercel.app/dist/flipbook-viewer.js'
+import * as flipbook from './flipbook-viewer.js'
 
-import * as book from 'https://flipbookviewer.vercel.app/test/book-pdf.js'
+import * as book from './book-pdf.js'
 
 function main() {
   const opts = {
