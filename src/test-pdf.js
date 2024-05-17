@@ -1,6 +1,6 @@
-import * as flipbook from './flipbook-viewer.js'
+import * as flipbook from '/src/flipbook-viewer.js'
 
-import * as book from './book-pdf.js'
+import * as book from '/src/book-pdf.js'
 
 function main() {
   const opts = {
