@@ -3,9 +3,9 @@
 /* for development/hotloading */
 //import * as flipbook from '../src'
 
-import * as flipbook from '../dist/flipbook-viewer.js'
+import * as flipbook from 'https://flipbookviewer.vercel.app/dist/flipbook-viewer.js'
 
-import * as book from './book-pdf.js'
+import * as book from 'https://flipbookviewer.vercel.app/test/book-pdf.js'
 
 /*    understand/
  * main entry point into our program
@@ -21,7 +21,7 @@ function main() {
   const prev = document.getElementById('prev')
   const zoom = document.getElementById('zoom')
 
-  book.init('/fp.pdf', (err, book) => {
+  book.init('https://flipbookviewer.vercel.app/test/fp.pdf', (err, book) => {
     if(err) console.error(err)
     else flipbook.init(book, app, opts, (err, viewer) => {
       if(err) return console.error(err)
