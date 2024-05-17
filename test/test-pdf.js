@@ -1,15 +1,7 @@
-'use strict'
-
-/* for development/hotloading */
-//import * as flipbook from '../src'
-
 import * as flipbook from 'https://flipbookviewer.vercel.app/dist/flipbook-viewer.js'
 
 import * as book from 'https://flipbookviewer.vercel.app/test/book-pdf.js'
 
-/*    understand/
- * main entry point into our program
- */
 function main() {
   const opts = {
     width: 800,
