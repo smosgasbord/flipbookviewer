@@ -1,5 +1,5 @@
 'use strict'
-import { getH } from '@tpp/htm-x';
+import { getH } from '/src/htm-x.js';
 
 import { flipbookViewer } from "./flipbookviewer.js";
 import { singlePageViewer } from "./singlepageviewer.js";
