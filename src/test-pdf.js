@@ -1,4 +1,4 @@
-import * as flipbook from '/src/flipbook-viewer.js'
+import * as flipbook from '/src/flipbookviewer.js'
 
 import * as book from '/src/book-pdf.js'
 
