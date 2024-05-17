@@ -1,5 +1,5 @@
 'use strict'
-import { h } from '@tpp/htm-x';
+import { h } from 'https://cdn.skypack.dev/@tpp/htm-x';
 import * as EventEmitter from 'events';
 
 class FlipbookViewer extends EventEmitter {};
